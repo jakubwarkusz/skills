@@ -63,3 +63,7 @@ skills/
 ```
 
 One folder per skill, named after it, with a `SKILL.md` that holds the name and description in its frontmatter. The CLI finds anything under `skills/`.
+
+## License
+
+[MIT](LICENSE)
