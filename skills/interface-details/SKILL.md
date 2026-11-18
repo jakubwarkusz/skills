@@ -16,7 +16,7 @@ Read the interface the way someone will use it: on a phone, in a hurry, pressing
 ## States
 - Selection doesn't change size. Active, selected and current items change colour, background or a marker, not font weight or padding. Why: Bold text is wider. Changing weight or padding on select makes the row and its neighbours jump.
 - Every action has four states. Idle, working, done and failed are each visible. A working button keeps its width and swaps its label for a spinner. Why: Within about 100 ms people need a sign their press landed. A button that changes width moves the layout under their finger.
-- Errors say what to fix. Lead with the fix, keep the cause short, and put the message next to the field it is about. Why: An error is the one sentence people read twice. "Invalid input" makes them guess; "Two digits are missing" doesn't.
+- Errors say what to fix. Lead with the fix, keep the cause short, and put the message next to the field it is about. Why: An error is the one sentence people read twice. "Invalid input" makes them guess; "Add the ending, like .com" doesn't.
 - Undo or hold, dialogs last. Destructive actions can be undone or are held to confirm. A confirmation dialog is the last resort. Why: People learn to click through dialogs without reading. Undo protects them without slowing anyone down.
 
 ## Motion
